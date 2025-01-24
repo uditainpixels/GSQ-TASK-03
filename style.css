@@ -1,0 +1,158 @@
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: Poppins, sans-serif;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+  }
+  nav ul{
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li{
+    list-style: none;
+    margin: 0 23px;
+  }
+  nav ul li a{
+  text-decoration: none;
+  color: white;
+  }
+  nav ul li a:hover{
+    color: rgb(153, 153, 226);
+    font-size: 1.01rem;
+  }
+  main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 50px;
+  }
+  .left{
+    font-size: 1.5rem;
+  }
+  .firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 16vh 0;
+  }
+  .firstsection > div{
+    width: 30%;
+  }
+  .leftsection{
+    font-size: 2.5rem;
+  }
+  .leftsection .buttons {
+    padding: 50px 0 ;
+  }
+  .leftsection .btn{
+    padding: 12px;
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px ;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .rightsection img{
+    width: 65%;
+  }
+  .text-yellow-orange {
+    color: rgb(255, 174, 66);
+  }
+  .text-gray {
+    color: gray;
+    font-size: 1rem;
+  }
+  #element{
+    color: rgb(255, 174, 66);
+  }
+  .secondsection {
+    max-width: 81vw;
+    margin: auto; 
+    height: 80vh;
+    }
+  .secondsection h1 {
+    font-size: 1.9rem;
+  }
+  .secondsection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 50px  0;
+    display: flex;
+  }
+  .secondsection .vertical {
+    background-color: white;
+    width: 1px;
+    height: 93px;
+    margin: 0 150px;
+    
+  }
+  .image-top{
+    width: 5vw;
+    position: relative;
+    top: -38px;
+    left: -60px;
+  }
+  .vertical-title{
+    position: relative;
+    top: 65px;
+    width: 150px;
+    font-size: 14px;
+  }
+  .vertical-desc {
+    position: relative;
+    top: 80px;
+    color: gray;
+    font-size: 11px;
+    width: 180px;
+  }
+  .image-top-1,
+  .image-top-2,
+  .image-top-3 {
+    width: 4vw;
+    position: relative;
+  }
+  .image-top-1{
+    top: -65px;
+    left: -30px;
+  }
+  .image-top-2{
+    top: -48px;
+    left: -25px;
+  }
+  .image-top-3{
+    top: -60px;
+    left: -25px;
+  }
+  footer{
+    background-color: #0e0e1a;
+    
+  }
+  .footer{
+    display: flex;
+    padding: 23px 122px;
+    max-width: auto;
+    justify-content: space-evenly;
+  }
+  .footer ul {
+    list-style: none;
+  }
+  .footer > div {
+    width: 223px;
+  }
+  footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+  }
